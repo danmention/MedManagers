@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        tools:context="com.example.zedcrest.medmanager.AddMedicationActivity"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+
+
+        <LinearLayout
+            android:padding="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <android.support.v7.widget.CardView
+                android:layout_marginTop="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                app:cardCornerRadius="5dp"
+                app:contentPadding="0dp"
+                app:cardElevation="6dp"
+                app:cardMaxElevation="10dp"
+                app:cardUseCompatPadding="true"
+                >
+
+
+                <LinearLayout android:orientation="vertical"
+
+                    android:layout_gravity="center_horizontal"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="15dp"
+                    android:layout_width="match_parent">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="ADD MEDICATION"
+                        />
+                    <TextView
+
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:text="Let's get to know you."
+                        android:layout_marginBottom="2dp"
+                       />
+
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+
+
+
+
+
+<TextView
+    android:textStyle="bold"
+    android:text="Name"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" />
+
+<EditText
+    style="@style/add_medication"
+    android:hint="Enter Name"
+    android:id="@+id/enter_name"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+            <EditText
+                android:singleLine="true"
+                style="@style/add_medication"
+                android:hint="Enter Desc"
+                android:id="@+id/enter_desc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+        <Spinner
+            style="@style/add_medication"
+            android:entries="@array/categories"
+            android:id="@+id/category"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        </Spinner>
+
+
+            <EditText
+                android:hint="Enter alarm interval"
+                android:id="@+id/etVal"
+                android:inputType="number"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+
+
+                <DatePicker
+                    android:id="@+id/pickerdate"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TimePicker
+                    android:id="@+id/pickertime"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+            </LinearLayout>
+
+                <EditText
+                    android:focusable="false"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:hint="Start date"
+                    android:id="@+id/start_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+                <EditText
+                    android:focusable="false"
+                    android:singleLine="true"
+                    android:layout_weight="1"
+                    android:hint="End date"
+                    android:id="@+id/end_date"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+
+
+                <Button
+                    android:id="@+id/setalarm"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Set Alarm"/>
+
+                <TextView
+                    android:text="info"
+                    android:id="@+id/info"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+
+
+
+
+
+
+
+
+
+<Button
+    android:layout_margin="20dp"
+    style="@style/add_medication"
+    android:text="Add Medication"
+    android:id="@+id/addBtn"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content" />
+
+
+
+
+
+</LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Med Manager</string>
+    <string name="title_activity_home">HomeActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <array name="categories">
+        <item>Early</item>
+        <item>Actual Time</item>
+        <item>Late</item>
+
+    </array>
+
+
+    <array name="frequency">
+        <item>2 </item>
+        <item>4</item>
+        <item>Late</item>
+
+    </array>
+</resources>

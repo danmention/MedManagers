@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "535301461364",
+    "firebase_url": "https://med-manager-2cdd5.firebaseio.com",
+    "project_id": "med-manager-2cdd5",
+    "storage_bucket": "med-manager-2cdd5.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:535301461364:android:0d28db150532bf37",
+        "android_client_info": {
+          "package_name": "com.example.zedcrest.medmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "535301461364-e1rthk94gtropa02qs2e7hpvjgnkqsif.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zedcrest.medmanager",
+            "certificate_hash": "6bfca362a111abc75dd4a5572844e07817f43d37"
+          }
+        },
+        {
+          "client_id": "535301461364-78pt8oaiadatssktr61gvfeiffhbjfil.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC7yGzIfsKWUDG433x0xzamQ5CCMq14g1U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "535301461364-78pt8oaiadatssktr61gvfeiffhbjfil.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
